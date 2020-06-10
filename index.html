@@ -2,48 +2,48 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Итог</title>
+  <title>Tesla Inc</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="menu">
-    <img class="menu__logo" href="#"></img>
-    <nav class="menu__nav nav-link">
-      <a class="nav-link__model-s" href="#">Model S</a>
-      <a class="nav-link__model-x" href="#">Model X</a>
-      <a class="nav-link__model-3" href="#">Model 3</a>
-      <a class="nav-link__roadster" href="#">Roadster</a>
-      <a class="nav-link__energy" href="#">Energy</a>
-      <a class="nav-link__shop" href="#">Магазин</a>
-      <a class="nav-link__enter" href="#">Войти</a>
-      <a class="nav-link__burger" href="#"></a>
-    </nav>
-  </header>
-  <main class="content">
-    <article class="sections">
-      <h1 class="sections__header">
+  <div class="container">
+    <header class="container__menu menu">
+      <div class="menu__logo" href="#"></div>
+      <nav class="menu__nav">
+        <a class="nav__link nav__link_model-s" href="#">Model S</a>
+        <a class="nav__link nav__link_model-x" href="#">Model X</a>
+        <a class="nav__link nav__link_model-3" href="#">Model 3</a>
+        <a class="nav__link nav__link_roadster" href="#">Roadster</a>
+        <a class="nav__link nav__link_energy" href="#">Energy</a>
+        <a class="nav__link nav__link_shop" href="#">Магазин</a>
+        <a class="nav__link nav__link_enter" href="#">Войти</a>
+      </nav>
+      <div class="menu__burger" href="#"></div>
+    </header>
+    <main class="sections">
+      <section class="sections__section">
+        <h1 class="section__header">
         Model S
-      </h1>
-      <p class="sections__greeting">
-        Добро пожаловать в будущее!
-      </p>
-      <img class="sections__background"></img>
-      <img class="sections__image-car"></img>
-      <p class="sections__specifications specifications-depiction">
-        <img class="specifications-depiction__speedometer-image"></img>
-        <p class="specifications-depiction__time time-speed">
+      	</h1>
+        <p class="section__greeting">
+          Добро пожаловать в будущее!
+        </p>
+        <div class="section__image-car"></div>
+        <div class="section__specifications specifications-depiction">
+          <div class="specifications-depiction__time time-speed">
+          <div class="time-speed__speedometer-image"></div>
           <span class="time-speed__numeral numeral">
             2,7
           </span>
           <span class="time-speed__text text">
-            сек
+              сек
           </span>
           <span class="time-speed__subtext subtext">
-            0-100 км/час
+              0-100 км/час
           </span>
-        </p>
-        <img class="specifications-depiction__line-image"></img>
-        <p class="specifications-depiction__distance distance-travel">
+        </div>
+        <div class="specifications-depiction__distance">
+          <div class="distance-travel__line-image"></div>
           <span class="distance-travel__numeral numeral">
             632
           </span>
@@ -52,96 +52,136 @@
           </span>
           <span class="distance-travel__subtext subtext">
             запас хода
-        </p>
-        <img class="specifications-depiction__rudder-image"></img>
-        <p>
-          <a class="specifications-depiction__link" href="#">
-            ТЕСТ ДРАЙВ
-          </a>
-        </p>
-        <button class="specifications-depiction__button button">
-          ЗАКАЗАТЬ
-        </button>
-      </p>
-      <button class="sections__button-pointer"></button>
-      <section class="sections__dashboard dashboard">
-        <h1 class="dashboard__header">
-          Model S
-        </h1>
-        <img class="dashboard__image"></img>
-        <aside class="dashboard__sidebar sidebar">
-          <h2 class="dashboard__title title">
-            Будущее вождения
-          </h2>
-          <p class="dashboard__item item">
-            Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
-          </p>
-          <img class="dashboard__image-display"></img>
-          <img class="dashboard__image-wireless"></img>
-          <img class="dashboard__image-volume"></img>
-          <img class="dashboard__image-info"></img>
-          <p class="dashboard__information-or-order information-or-order">
-            <img class="information-or-order__i-image"></img>
-            <p>
-              <a class="information-or-order__link" href="#">
-                УЗНАТЬ БОЛЬШЕ
-              </a>
-            </p>
-            <button class="information-or-order__button button">
-              ЗАКАЗАТЬ
-            </button>
-            </p>
-        </aside>
-      </section>
-      <section class="sections__frame frame">
-        <aside class="frame__sidebar sidebar">
-          <h1 class="frame__title title">
-            Самый безопасный автомобиль в мире
-          </h1>
-          <p class="frame__item item">
-            Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
-          </p>
-          <h1 class="frame__title-rating title">
-            Оценка защиты:
-          </h1>
-          <ul class="frame__list">
-            <li class="item__front">СПЕРЕДИ</li>
-            <li class="item__front-star"></li>
-            <li class="item__side">СБОКУ</li>
-            <li class="item__side-star"></li>
-            <li class="item__otherside">СБОКУ</li>
-            <li class="item__otherside-star"></li>
-            <li class="item__rack">(СТОЙКА)</li>
-            <li class="item__driver">ВОДИТЕЛЬ</li>
-            <li class="item__driver-star"></li>
-            <li class="item__passenger">ПАССАЖИР</li>
-            <li class="item__passenger-star"></li>
-          </ul>
-          <img class="frame__image-shield"></img>
-          <img  class="frame__image-mark"></img>
-          <img  class="frame__image-five"></img>
-          <img  class="frame__image-safety"></img>
-          <img class="frame__image-info"></img>
-          <p class="frame__information-or-order information-or-order">
-            <img class="information-or-order__i-image"></img>
-            <p>
-              <a class="information-or-order__link" href="#">
-                УЗНАТЬ БОЛЬШЕ
-              </a>
-            </p>
-            <button class="information-or-order__button button">
-              ЗАКАЗАТЬ
-            </button>
-            </p>
-          <div class="frame__image-car">
-            <img class="frame__fon"></img>
-            <img class="frame__sceleton"></img>
-            <img class="frame__developed"></img>
-            <img class="frame__webHero"></img>
+          </span>
+        </div>
+        <div class="specifications-depiction__rudder-test-order">
+           <div class="rudder-test-order__rudder-image"></div>
+           <div>
+            <a class="rudder-test-order__link" href="#">
+              ТЕСТ ДРАЙВ
+            </a>
           </div>
-        </aside>
+          <button class="rudder-test-order__button button">
+            ЗАКАЗАТЬ
+          </button>       
+         </div>
+       	</div>
+       	<button class="section__button-pointer"></button>
       </section>
-    </article>
-  </main>
+      <section class="sections__dashboard dashboard">
+      	<h2 class="dashboard-left">
+       	 Model S
+      	</h2>
+      	<div class="dashboard-right">
+        	<div class="dashboard-right__sidebar sidebar">
+          	<h2 class="sidebar__title title">
+            Будущее вождения
+          	</h2>
+          	<p class="sidebar__item item">
+            Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
+          	</p>
+          	<div class="sidebar__symbol symbol">
+            <div class="symbol__display">
+              <div class="display-page">
+                <div class="display-page__img"></div>
+              </div>
+              <div class="display-text">
+                <div class="display-text__numeral numeral">
+                  17
+                </div>
+                <div class="display-text__text text">
+                  дюймов 
+                </div>
+                <div class="display-text__subtext subtext">
+                  Большой дисплей  
+                </div>
+              </div>
+            </div>
+            <div class="symbol__WiFi">
+              <div class="WiFi-page">
+                <div class="WiFi-page__img"></div>
+              </div>
+              <div class="WiFi-text">
+                <div class="WiFi-text__text text">
+                  Беспроводное обновление ПО   
+                </div>
+                <div class="WiFi-text__subtext subtext">
+                  Повышенная функциональность
+                </div>
+              </div>
+            </div>
+            <div class="symbol__bag">
+              <div class="bag-page">
+                <div class="bag-page__img"></div>
+              </div>
+              <div class="bag-text">
+                <div class="bag-text__numeral numeral">
+                  894
+                </div>
+                <div class="bag-text__text text">
+                  литра 
+                </div>
+                <div class="bag-text__subtext subtext">
+                  Объем грузового пространства  
+                </div>
+              </div>
+            </div>
+          	</div>
+          	<div class="sidebar__information-or-order information-or-order">
+            <div class="information-or-order__image-info"></div>
+            <p class="information-or-order__link">УЗНАТЬ БОЛЬШЕ</p>
+            <button class="information-or-order__button button">ЗАКАЗАТЬ</button>
+          	</div>
+        	</div>
+      	</div>
+    	</section>
+    	<section class="sections__frame frame">
+      	<div class="frame__sidebar sidebar">
+           <h1 class="frame__title title">
+             Самый безопасный автомобиль в мире
+           </h1>
+           <p class="frame__item item">
+             Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
+           </p>
+           <h1 class="frame__title-rating title">
+             Оценка защиты:
+           </h1>
+           <div class="frame__result">
+             <div class="frame__result result-left">
+               <ul class="result-left__list">
+                 <li class="result-left__item">СПЕРЕДИ</li>
+                 <li class="result-left__item">СБОКУ</li>
+                 <li class="result-left__item">СБОКУ <span class="result-left__item_rack">(СТОЙКА)</span></li>
+                 <li class="result-left__item">ВОДИТЕЛЬ</li>
+                 <li class="result-left__item">ПАССАЖИР</li>
+               </ul>
+             </div>
+             <div class="frame__result result-right">
+               <ul class="result-right__list">
+                 <li class="result-right__item"></li>
+                 <li class="result-right__item"></li>
+                 <li class="result-right__item"></li>
+                 <li class="result-right__item"></li>
+                 <li class="result-right__item"></li>
+               </ul>
+             </div>
+           </div>  
+           <div class="frame__five-star">
+             <div class="frame__image-shield"></div>
+             <div class="frame__five-text">5 звёзд<span class="frame__five-text_safety">безопасность<span/></div>
+           </div>
+           <div class="frame__information-or-order information-or-order">
+             <div class="information-or-order__image-info"></div>
+             <p class="information-or-order__link">УЗНАТЬ БОЛЬШЕ</p>
+             <button class="information-or-order__button button">ЗАКАЗАТЬ</button>
+           </div>
+      	</div>
+      	<div class="frame__image-car">
+					<p class="frame__sceleton"></p>
+          <p class="frame__webHero"></p>
+     	 	</div>
+			</section>
+		</main>
+  </div>
 </body>
 </html>
