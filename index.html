@@ -9,10 +9,10 @@
 </head>
 <body>
   <div class="container">
-    <header class="container__menu menu">
+    <header class="container__menu">
       <div class="menu__logo" href="#"></div>
       <nav class="menu__nav">
-        <a class="nav__link" href="#">Model S</a>
+        <a class="nav__link nav__link_active" href="#">Model S</a>
         <a class="nav__link" href="#">Model X</a>
         <a class="nav__link" href="#">Model 3</a>
         <a class="nav__link" href="#">Roadster</a>
@@ -25,53 +25,55 @@
     <main class="sections">
       <section class="sections__section">
         <h1 class="section__header">
-          Model S
+        Model S
       	</h1>
         <p class="section__greeting">
           Добро пожаловать в будущее!
         </p>
         <div class="section__image-car"></div>
-        <div class="section__specifications specifications-depiction">
-          <div class="specifications-depiction__time time-speed">
-            <div class="time-speed__speedometer-image"></div>
+        <div class="section__specifications">
+          <div class="time-speed">
+            <div class="time-speed__speedometer"></div>
             <span class="time-speed__numeral numeral">
               2,7
             </span>
             <span class="time-speed__text text">
               сек
-            </span>
+          </span>
             <span class="time-speed__subtext subtext">
               0-100 км/час
-            </span>
+          </span>
           </div>
-          <div class="specifications-depiction__distance">
-            <div class="distance-travel__line-image"></div>
-            <span class="distance-travel__numeral numeral">
+          <div class="distance">
+            <div class="distance__line"></div>
+            <span class="distance__numeral numeral">
               632
             </span>
-            <span class="distance-travel__text text">
+            <span class="distance__text text">
               км
             </span>
-            <span class="distance-travel__subtext subtext">
+            <span class="distance__subtext subtext">
               запас хода
             </span>
           </div>
-          <div class="specifications-depiction__rudder-test-order">
-            <div class="rudder-test-order__rudder-image"></div>
-            <div>
-              <a class="rudder-test-order__link" href="#">
-                тест драйв
-              </a>
-            </div>
-            <button class="rudder-test-order__button button">
+          <div class="test-drive">
+            <div class="test-drive__rudder"></div>
+            <p>
+              <span>
+                <a class="test-drive__link" href="#">
+                  тест драйв
+                </a>
+              </span>
+            </p>
+            <button class="test-drive__button button">
               заказать
             </button>       
-          </div>
+         </div>
        	</div>
-       	<button class="section__button-pointer"></button>
+       	<button class="section__btn-pointer"></button>
       </section>
-      <section class="sections__dashboard dashboard">
-      	<h2 class="dashboard-left">
+      <section class="sections__dashboard">
+      	<h2 class="dashboard__header">
           Model S
       	</h2>
       	<div class="dashboard-right">
@@ -145,134 +147,134 @@
                 </div>
               </div>
           	</div>
-          	<div class="sidebar__information-or-order information-or-order">
-              <div class="information-or-order__image-info"></div>
-              <p class="information-or-order__link">узнать больше</p>
-              <button class="information-or-order__button button">заказать</button>
+          	<div class="sidebar__info">
+              <div class="info__image"></div>
+              <p class="info__link">узнать больше</p>
+              <button class="info__button button">заказать</button>
           	</div>
         	</div>
       	</div>
     	</section>
-    	<section class="sections__frame frame">
+    	<section class="sections__frame">
       	<div class="frame__sidebar sidebar">
-          <h2 class="frame__title title">
-            Самый безопасный автомобиль в мире
-          </h2>
-          <p class="frame__item item">
-            Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
-          </p>
-          <h2 class="frame__title-rating title">
-            Оценка защиты:
-          </h2>
-          <div class="frame__result">
-            <div class="frame__result result-left">
-              <ul class="result-left__list">
-                <li class="list__item">спереди</li>
-                <li class="list__item">сбоку</li>
-                <li class="list__item">сбоку<span class="list__item_rack">(стойка)</span></li>
-                <li class="list__item">водитель</li>
-                <li class="list__item">пассажир</li>
-              </ul>
-            </div>
-            <div class="frame__result result-right">
-              <ul class="result-right__list">
-                <li class="result-right__item">
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                </li>
-                <li class="result-right__item">
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                </li>
-                <li class="result-right__item">
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                </li>
-                <li class="result-right__item">
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                </li>
-                <li class="result-right__item">
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                  <p>
-                    <span class="item__star"></span>
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>  
-          <div class="frame__five-star">
-            <div class="frame__image-shield"></div>
-            <div class="frame__five-text">5 звёзд<span class="frame__five-text_safety">безопасность<span/></div>
-          </div>
-          <div class="frame__information-or-order information-or-order">
-            <div class="information-or-order__image-info"></div>
-            <p class="information-or-order__link">УЗНАТЬ БОЛЬШЕ</p>
-            <button class="information-or-order__button button">ЗАКАЗАТЬ</button>
-          </div>
+           <h2 class="frame__title title">
+             Самый безопасный автомобиль в мире
+           </h2>
+           <p class="frame__item item">
+             Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
+           </p>
+           <h2 class="frame__title-rating title">
+             Оценка защиты:
+           </h2>
+           <div class="frame__result">
+             <div class="frame__result result-left">
+               <ul class="result-left__list">
+                 <li class="list__item">спереди</li>
+                 <li class="list__item">сбоку</li>
+                 <li class="list__item">сбоку<span class="list__item-rack">(стойка)</span></li>
+                 <li class="list__item">водитель</li>
+                 <li class="list__item">пассажир</li>
+               </ul>
+             </div>
+             <div class="frame__result result-right">
+               <ul class="result-right__list">
+                 <li class="result-right__item">
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                 </li>
+                 <li class="result-right__item">
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                 </li>
+                 <li class="result-right__item">
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                 </li>
+                 <li class="result-right__item">
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                 </li>
+                 <li class="result-right__item">
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                   <p>
+                     <span class="item__star"></span>
+                   </p>
+                 </li>
+               </ul>
+             </div>
+           </div>  
+           <div class="frame__five-star">
+             <div class="frame__image-shield"></div>
+             <div class="frame__five-text">5 звёзд<span class="frame__five-text_safety">безопасность<span/></div>
+           </div>
+           <div class="frame__information-or-order information-or-order">
+             <div class="information-or-order__image-info"></div>
+             <p class="information-or-order__link">УЗНАТЬ БОЛЬШЕ</p>
+             <button class="information-or-order__button button">ЗАКАЗАТЬ</button>
+           </div>
       	</div>
       	<div class="frame__image-car">
 					<p class="image-car__sceleton"></p>
