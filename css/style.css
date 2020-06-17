@@ -4,7 +4,7 @@
   align-content: space-between;
   width: 1440px;
   height: 2850px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 19px;
   font-weight: 600;
   padding: 0;
@@ -18,19 +18,19 @@
   align-items: center;
   width: 1345px;
   height: 51px;
-  padding:0;
+  padding: 0;
   margin: 24px 0px 0px 42.72px;
 }
 
 .menu__logo {
-  display:flex;
+  display: flex;
   width: 166px;
   height: 51px;
   background: url(https://i.ibb.co/x1r6ZBx/Tesla-Wordmark-Red.png;);
   background-size: 100%;
   background-position: center;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 .menu__nav {
@@ -39,7 +39,7 @@
   align-items: center;
   width: 1117.28px;
   height: 51px;
-  margin:0; 
+  margin: 0;
 }
 
 .nav__link {
@@ -47,7 +47,7 @@
   text-align: center;
   width: auto;
   height: 19px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
@@ -72,31 +72,30 @@
 }
 
 .nav__link:nth-child(1) {
-  display:flex;
+  display: flex;
   width: 62px;
-  text-align center;
   height: 19px;
-  margin:0 62px 0 257px;
+  margin: 0 62px 0 257px;
 }
 
 .nav__link:nth-child(2) {
-  display:flex;
+  display: flex;
   width: 63px;
   height: 19px;
-  margin:0 24.86px 0 0;
+  margin: 0 24.86px 0 0;
 }
 
 .nav__link:nth-child(3) {
-  display:flex;
+  display: flex;
   width: 61px;
   height: 19px;
-  margin:0 44px 0 0;
+  margin: 0 44px 0 0;
 }
 
 .nav__link:nth-child(4) {
   width: auto;
   height: 19px;
-  margin:0 46px 0 0;  
+  margin: 0 46px 0 0;
 }
 
 .nav__link:nth-child(5) {
@@ -108,13 +107,13 @@
 .nav__link:nth-child(6) {
   width: 69px;
   height: 19px;
-  margin:0 30px 0 205px;
+  margin: 0 30px 0 205px;
 }
 
 .nav__link:nth-child(7) {
   width: 50px;
   height: 19px;
-  margin:0 0 0 0px;
+  margin: 0 0 0 0px;
 }
 
 .menu__burger {
@@ -124,36 +123,34 @@
   background: url(https://i.ibb.co/ZWYPctm/menu.png) no-repeat;
   background-size: 100%;
   background-position: center;
-  margin:0 0 0 30px;
+  margin: 0 0 0 30px;
   border: 0;
   outline: none;
   cursor: pointer;
-
 }
 
 .menu__burger:active {
   width: 27px;
   height: 19px;
-  margin:0 0 0 27px;
+  margin: 0 0 0 27px;
   background: url(https://i.ibb.co/ZWYPctm/menu.png) no-repeat;
   background-size: 100%;
   background-position: center;
-  border: 2px solid lightgrey; 
+  border: 2px solid lightgrey;
   outline: none;
   cursor: pointer;
 }
 
-
 /*Основной контент*/
 
 .container__sections {
-  display:flex;
+  display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
   width: 1440px;
   height: 2700px;
   margin: 58px auto 0 auto;
-  padding:0; 
+  padding: 0;
 }
 
 .section {
@@ -166,8 +163,8 @@
   font-style: normal;
   font-weight: 600;
   margin: 0;
-  padding:0;
-  background: url(https://i.ibb.co/2P0n4Px/Tesla-Wordmark-Red.png) no-repeat; 
+  padding: 0;
+  background: url(https://i.ibb.co/2P0n4Px/Tesla-Wordmark-Red.png) no-repeat;
 }
 
 .section__header {
@@ -196,7 +193,7 @@
   width: 968px;
   height: 450px;
   margin: 0;
-  padding:0;
+  padding: 0;
   background: url(https://i.ibb.co/0fsqbX0/tesla-png-tesla-png-hd-1636.png);
   background-size: 100%;
   margin: 0 auto 26px auto;
@@ -212,7 +209,7 @@
   width: 800px;
   height: 58px;
   margin: 0 auto;
-  padding:0;
+  padding: 0;
 }
 
 .time-speed {
@@ -222,7 +219,7 @@
   width: 160px;
   height: 58px;
   margin: 0 61px 0 0;
-  padding:0;
+  padding: 0;
 }
 
 .time-speed__speedometer {
@@ -246,7 +243,7 @@
   display: flex;
   width: 51px;
   height: 43px;
-  margin:0 0 0 12px;
+  margin: 0 0 0 12px;
   padding: 0;
 }
 
@@ -263,7 +260,7 @@
   align-items: flex-end;
   width: 37px;
   height: 41px;
-  margin:0 0 0 6px;
+  margin: 0 0 0 6px;
   padding: 0;
 }
 
@@ -278,8 +275,8 @@
   display: flex;
   width: 80px;
   height: 15px;
-  margin:-15px 0 0 60px;
-} 
+  margin: -15px 0 0 60px;
+}
 
 .distance {
   display: flex;
@@ -289,14 +286,14 @@
   width: 145px;
   height: 58px;
   margin: 0 82px 0 0;
-  padding:0;
+  padding: 0;
 }
 
 .distance__line {
   display: flex;
   width: 31px;
   height: 58px;
-  margin:0 8px 0 0;
+  margin: 0 8px 0 0;
   background: url(https://i.ibb.co/DCQBjjV/Road-icon.png) no-repeat;
   background-size: 100%;
   background-position: center;
@@ -306,7 +303,7 @@
   display: flex;
   width: 63px;
   height: 43px;
-  margin:0 6.5px 0 0;
+  margin: 0 6.5px 0 0;
   padding: 0;
 }
 
@@ -314,7 +311,7 @@
   display: flex;
   width: 29px;
   height: 25px;
-  margin:15px 0 6.5px 0;
+  margin: 15px 0 6.5px 0;
   padding: 0;
 }
 
@@ -325,9 +322,9 @@
   font-style: normal;
   font-weight: normal;
   text-align: left;
-  margin:-16px 0 0 41px;
-  padding:0;
-} 
+  margin: -16px 0 0 41px;
+  padding: 0;
+}
 
 .test-drive {
   display: flex;
@@ -339,18 +336,18 @@
 /* руль тест */
 
 .test-drive__rudder {
-  display:flex;
+  display: flex;
   width: 22px;
   height: 58px;
-  margin: 0 6px 0 0 ;
-  padding:0;
+  margin: 0 6px 0 0;
+  padding: 0;
   background: url(https://i.ibb.co/wWgHDvw/steering-wheel.png) no-repeat;
   background-size: 100%;
   background-position: center;
 }
 
 .test-drive__link {
-  display:flex;
+  display: flex;
   width: 89px;
   height: 18px;
   font-size: 13px;
@@ -364,7 +361,7 @@
 }
 
 .test-drive__link:hover {
-  display:flex;
+  display: flex;
   font-size: 13px;
   line-height: 16px;
   font-weight: bold;
@@ -382,14 +379,14 @@
   height: 40px;
   font-size: 13px;
   line-height: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .test-drive__button {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   font-size: 13px;
@@ -411,7 +408,7 @@
 }
 
 .test-drive__button:focus {
-  display:flex;
+  display: flex;
   color: #fff;
   border: 1px solid #fff;
   background-color: #f00;
@@ -435,8 +432,8 @@
   display: flex;
   width: 34px;
   height: 20px;
-  padding:0;
-  margin:37px auto 37px auto;
+  padding: 0;
+  margin: 37px auto 37px auto;
   box-shadow: none;
   background: url(https://i.ibb.co/GFX8Xs7/Vector-1.png) no-repeat;
   background-size: 100%;
@@ -456,6 +453,6 @@
   width: 40px;
   height: 25px;
   outline: none;
-  margin:37px auto 32px auto;
+  margin: 37px auto 32px auto;
   box-shadow: 0 0 0 3px grey;
 }
