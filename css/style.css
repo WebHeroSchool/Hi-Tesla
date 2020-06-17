@@ -1,4 +1,8 @@
-﻿.container {
+﻿body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
   display: flex;
   flex-flow: column wrap;
   align-content: space-between;
@@ -19,7 +23,7 @@
   width: 1345px;
   height: 51px;
   padding: 0;
-  margin: 24px 0px 0px 42.72px;
+  margin: 24px 0 0 42.72px;
 }
 
 .menu__logo {
@@ -101,7 +105,7 @@
 .nav__link:nth-child(5) {
   width: 55px;
   height: 19px;
-  margin: 0 0px 0 0;
+  margin: 0;
 }
 
 .nav__link:nth-child(6) {
@@ -113,7 +117,7 @@
 .nav__link:nth-child(7) {
   width: 50px;
   height: 19px;
-  margin: 0 0 0 0px;
+  margin: 0;
 }
 
 .menu__burger {
@@ -141,7 +145,7 @@
   cursor: pointer;
 }
 
-/*Основной контент*/
+/* Основной контент */
 
 .container__sections {
   display: flex;
@@ -158,8 +162,9 @@
   flex-flow: column wrap;
   justify-content: flex-start;
   align-content: center;
+  align-items: center;
   width: 1440px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   margin: 0;
@@ -192,11 +197,10 @@
   display: flex;
   width: 968px;
   height: 450px;
-  margin: 0;
   padding: 0;
   background: url(https://i.ibb.co/0fsqbX0/tesla-png-tesla-png-hd-1636.png);
   background-size: 100%;
-  margin: 0 auto 26px auto;
+  margin: 0 auto 26px;
 }
 
 /* ----------------------спецификация----------------------------- */
@@ -426,7 +430,7 @@
   font-size: 12px;
 }
 
-/*Кнопка галка*/
+/* Кнопка галка */
 
 .section__btn-pointer {
   display: flex;
