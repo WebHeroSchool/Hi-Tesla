@@ -377,6 +377,8 @@
   border: 0;
 }
 
+/* Кнопка Заказать */
+
 .button {
   display: flex;
   width: 160px;
@@ -396,16 +398,16 @@
   font-size: 13px;
   text-align: center;
   font-weight: bold;
-  border: 2px solid #fff;
-  color: #fff;
-  background-color: #f00;
+  border: 2px solid #f00;
+  color: #f00;
+  background-color: #fff;
 }
 
 .test-drive__button:hover {
   font-size: 14px;
-  color: #fff;
-  border: 3px solid #fff;
-  background-color: #f00;
+  color: #f00;
+  border: 3px solid #f00;
+  background-color: #fff;
   cursor: pointer;
   font-weight: bold;
   padding: 0;
@@ -413,20 +415,20 @@
 
 .test-drive__button:focus {
   display: flex;
-  color: #fff;
-  border: 1px solid #fff;
-  background-color: #f00;
+  color: #ff0000;
+  border: 1px solid #f00;
+  background-color: #fff;
   cursor: pointer;
   font-weight: bold;
   padding: 0;
   outline: none;
-  box-shadow: 0 0 0 3px lightskyblue;
+  box-shadow: 0 0 0 3px lightskyblu;
 }
 
 .test-drive__button:active {
   background-color: #fff;
-  border-color: #000;
-  color: #000;
+  border-color: #f00;
+  color: #f00;
   font-size: 12px;
 }
 
