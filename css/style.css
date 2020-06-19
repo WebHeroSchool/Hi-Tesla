@@ -64,14 +64,18 @@
   text-decoration: none;
   color: #f00;
   border-bottom: 2px solid #f00;
+  padding-bottom: 6px;
+  padding-top: 5px;
   border-radius: 0 0 3px 3px;
 }
 
-.nav__link:active {
+.nav__link:hover {
   text-decoration: none;
   font-size: 15px;
   color: #f00;
   border-bottom: 2px solid #f00;
+  padding-bottom: 6px;
+  padding-top: 5px;
   border-radius: 0 0 3px 3px;
 }
 
@@ -79,7 +83,7 @@
   display: flex;
   width: 62px;
   height: 19px;
-  margin: 0 62px 0 259px;
+  margin: 0 62px 0 260px;
 }
 
 .nav__link:nth-child(2) {
@@ -111,7 +115,7 @@
 .nav__link:nth-child(6) {
   width: 69px;
   height: 19px;
-  margin: 0 29px 0 222px;
+  margin: 0 28px 0 222px;
 }
 
 .nav__link:nth-child(7) {
@@ -164,10 +168,11 @@
   align-content: center;
   align-items: center;
   width: 1440px;
+  height: 767px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  margin: 59px auto;
+  margin: 59px auto 0;
   padding: 0;
   background: url(https://i.ibb.co/2P0n4Px/Tesla-Wordmark-Red.png) no-repeat;
 }
@@ -213,6 +218,7 @@
   width: 800px;
   height: 58px;
   margin: 0 auto;
+  border: 2px slid black;
   padding: 0;
 }
 
@@ -222,7 +228,7 @@
   align-content: flex-start;
   width: 160px;
   height: 58px;
-  margin: 0 61px 0 0;
+  margin: 0 0 0 0;
   padding: 0;
 }
 
@@ -232,8 +238,9 @@
   height: 58px;
   margin: 0 0 0 0;
   background: url(https://i.ibb.co/mSRKSz6/Speed.png) no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: 115%;
+  background-position: center bottom;
+  padding-left: 2px;
 }
 
 .numeral {
@@ -247,7 +254,7 @@
   display: flex;
   width: 51px;
   height: 43px;
-  margin: 0 0 0 12px;
+  margin: 0 0 0 15px;
   padding: 0;
 }
 
@@ -264,7 +271,7 @@
   align-items: flex-end;
   width: 37px;
   height: 41px;
-  margin: 0 0 0 6px;
+  margin: 0 0 0 8px;
   padding: 0;
 }
 
@@ -279,7 +286,7 @@
   display: flex;
   width: 80px;
   height: 15px;
-  margin: -15px 0 0 60px;
+  margin: -17px 0 0 62px;
 }
 
 .distance {
@@ -289,7 +296,7 @@
   align-items: flex-start;
   width: 145px;
   height: 58px;
-  margin: 0 82px 0 0;
+  margin: 0 10px 0 0;
   padding: 0;
 }
 
@@ -315,7 +322,7 @@
   display: flex;
   width: 29px;
   height: 25px;
-  margin: 15px 0 6.5px 0;
+  margin: 15px 1px 0;
   padding: 0;
 }
 
@@ -326,7 +333,7 @@
   font-style: normal;
   font-weight: normal;
   text-align: left;
-  margin: -16px 0 0 41px;
+  margin: -18px 0 0 40px;
   padding: 0;
 }
 
@@ -344,9 +351,8 @@
   width: 22px;
   height: 58px;
   margin: 0 6px 0 0;
-  padding: 0;
   background: url(https://i.ibb.co/wWgHDvw/steering-wheel.png) no-repeat;
-  background-size: 100%;
+  background-size: contain;
   background-position: center;
 }
 
@@ -422,7 +428,7 @@
   font-weight: bold;
   padding: 0;
   outline: none;
-  box-shadow: 0 0 0 3px lightskyblu;
+  box-shadow: 0 0 0 3px;
 }
 
 .test-drive__button:active {
@@ -439,16 +445,18 @@
   width: 34px;
   height: 20px;
   padding: 0;
-  margin: 37px auto 37px auto;
+  margin: 37px auto 0 auto;
   box-shadow: none;
   background: url(https://i.ibb.co/GFX8Xs7/Vector-1.png) no-repeat;
-  background-size: 100%;
+  background-size: contain;
   position: center;
   outline: none;
   border: 1px solid white;
 }
 
 .section__btn-pointer:hover {
+  width: 40px;
+  height: 25px;
   cursor: pointer;
   padding: 0;
   border: 1px solid white;
@@ -459,6 +467,365 @@
   width: 40px;
   height: 25px;
   outline: none;
-  margin: 37px auto 32px auto;
+  margin: 32px auto 0;
   box-shadow: 0 0 0 3px grey;
+}
+
+/* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/
+
+.sections__dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  width: 1440px;
+  height: 900px;
+  margin: 0 auto;
+  background: url(https://i.ibb.co/h8FRxMN/2013-tesla-model-s-cockpit.png)
+    no-repeat;
+  background-size: 89.1%;
+  background-position: bottom left;
+}
+
+.dashboard__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 375px;
+  max-height: 123px;
+  font-size: 70px;
+  line-height: 85px;
+  font-weight: 600;
+  color: #f00;
+  flex: auto;
+  padding: 40px 0 0 76px;
+  margin: 0;
+}
+
+.dashboard-right {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 40px;
+  color: white;
+  margin-left: 634px;
+}
+
+.sidebar {
+  display: flex;
+  flex-flow: column wrap;
+  width: 440px;
+  height: 900px;
+  color: #fff;
+  background: #f00;
+  background-size: 100%;
+  margin-top: 0;
+}
+
+.title {
+  display: flex;
+  font-size: 30px;
+  line-height: 37px;
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+}
+
+.sidebar__title {
+  display: flex;
+  justify-content: center;
+  width: 316px;
+  height: 37px;
+  color: #fff;
+  margin: 49px 72px 11px 52px;
+}
+
+.item {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.sidebar__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 316px;
+  height: 206px;
+  padding: 0;
+  margin: 0 72px 54px 52px;
+}
+
+/* Символы */
+
+.sidebar__symbol {
+  display: flex;
+  flex-flow: column;
+  margin: 0 0 0 51px;
+  margin-bottom: 171px;
+}
+
+.symbol {
+  width: 269px;
+  height: 267px;
+}
+
+/* Символ display */
+
+.symbol__display {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  width: 200px;
+  height: 65px;
+  margin-bottom: 35px;
+  padding: 0;
+}
+
+.display-page {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex: 0 0 55px;
+  height: 65px;
+}
+
+.display-page__img {
+  display: flex;
+  flex-direction: row;
+  width: 36px;
+  height: 53px;
+  background: url(https://i.ibb.co/2d14C2z/screen-display.png) no-repeat;
+  background-size: 100%;
+  margin: 12px 19px 0 0;
+}
+
+.display-text {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 155px;
+  height: 65px;
+}
+
+.display-text__numeral {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  margin: 0 0 0 1px;
+}
+
+.display-text__text {
+  width: 87px;
+  height: 23px;
+  margin: 13px 0 0 13px;
+}
+
+.display-text__subtext {
+  display: flex;
+  margin-left: 0;
+  width: 127px;
+  height: 15px;
+  margin: 0 0 4px 1px;
+}
+
+/* Символ Wi-Fi */
+
+.symbol__WiFi {
+  display: flex;
+  flex-direction: row;
+  width: 269px;
+  height: 71px;
+  margin-bottom: 25px;
+}
+
+.WiFi-page {
+  display: flex;
+  flex-direction: row;
+  width: 64px;
+  height: 34px;
+  margin-top: 17px;
+}
+
+.WiFi-page__img {
+  display: flex;
+  width: 44px;
+  height: 34px;
+  background: url(https://i.ibb.co/JtT1gvW/wifi.png) no-repeat;
+  background-size: 100%;
+  padding: 0;
+}
+
+.WiFi-text {
+  display: flex;
+  flex-flow: column wrap;
+  width: 225px;
+  height: 71px;
+}
+
+.WiFi-text__text {
+  display: flex;
+  text-align: left;
+  line-height: 18px;
+  width: 172.68px;
+  height: 36px;
+  margin: 0 0 0 3px;
+}
+
+.WiFi-text__subtext {
+  display: flex;
+  margin-left: 0px;
+  width: 205px;
+  height: 30px;
+  margin: 3px 0 0 2px;
+}
+
+/* Символ bag */
+
+.symbol__bag {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  width: 210px;
+  height: 71px;
+}
+
+.bag-page {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  width: 62px;
+  height: 65px;
+  padding-bottom: 10px;
+}
+
+.bag-page__img {
+  display: flex;
+  width: 36px;
+  height: 53px;
+  background: url(https://i.ibb.co/zQ7Kmns/bag.png) no-repeat;
+  background-size: contain;
+  padding: 0;
+  margin: 10px 0 0 1px;
+}
+
+.bag-text {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  width: 155px;
+  height: 65px;
+}
+
+.bag-text__numeral {
+  display: flex;
+  flex-grow: 0;
+  width: 69px;
+  height: 37px;
+  margin: 0;
+}
+
+.bag-text__text {
+  display: flex;
+  flex-grow: 0;
+  width: 63px;
+  height: 22px;
+  margin: 15px 0 0 12px;
+}
+
+.bag-text__subtext {
+  display: flex;
+  width: 115px;
+  height: 28px;
+  margin: 2px 0 0 2px;
+}
+
+/* ссылка тест и кнопка заказать */
+
+.sidebar__info {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 352px;
+  height: 40px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.info__image {
+  display: flex;
+  width: 22px;
+  height: 22px;
+  background: url(https://i.ibb.co/zFFHDgv/Group-15.png) no-repeat;
+  background-size: 100%;
+  margin: 0 0 0 6px;
+}
+
+.info__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 137px;
+  height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  margin: 0 24px 0 9px;
+}
+
+.info__link:hover {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+}
+
+.info__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #f00;
+}
+
+.info__button:hover {
+  font-size: 14px;
+  color: #fff;
+  border: 3px solid #fff;
+  background-color: #f00;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+}
+
+.info__button:focus {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #f00;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+
+.info__button:active {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+  font-size: 12px;
 }
