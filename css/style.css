@@ -1,0 +1,472 @@
+﻿body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  width: 1440px;
+  height: 2850px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container__menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1345px;
+  height: 51px;
+  padding: 0;
+  margin: 24px 0 0 42.72px;
+}
+
+.menu__logo {
+  display: flex;
+  width: 166px;
+  height: 51px;
+  background: url(https://i.ibb.co/x1r6ZBx/Tesla-Wordmark-Red.png;);
+  background-size: 100%;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 1117.28px;
+  height: 51px;
+  margin: 0;
+}
+
+.nav__link {
+  display: flex;
+  text-align: center;
+  width: auto;
+  height: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav__link_active {
+  display: flex;
+  text-decoration: none;
+  color: #f00;
+  border-bottom: 2px solid #f00;
+  padding-bottom: 6px;
+  padding-top: 5px;
+  border-radius: 0 0 3px 3px;
+}
+
+.nav__link:hover {
+  text-decoration: none;
+  font-size: 15px;
+  color: #f00;
+  border-bottom: 2px solid #f00;
+  padding-bottom: 6px;
+  padding-top: 5px;
+  border-radius: 0 0 3px 3px;
+}
+
+.nav__link:nth-child(1) {
+  display: flex;
+  width: 62px;
+  height: 19px;
+  margin: 0 62px 0 260px;
+}
+
+.nav__link:nth-child(2) {
+  display: flex;
+  width: 63px;
+  height: 19px;
+  margin: 0 24.86px 0 0;
+}
+
+.nav__link:nth-child(3) {
+  display: flex;
+  width: 61px;
+  height: 19px;
+  margin: 0 44px 0 0;
+}
+
+.nav__link:nth-child(4) {
+  width: auto;
+  height: 19px;
+  margin: 0 46px 0 0;
+}
+
+.nav__link:nth-child(5) {
+  width: 55px;
+  height: 19px;
+  margin: 0;
+}
+
+.nav__link:nth-child(6) {
+  width: 69px;
+  height: 19px;
+  margin: 0 28px 0 222px;
+}
+
+.nav__link:nth-child(7) {
+  width: 50px;
+  height: 19px;
+  margin: 0;
+}
+
+.menu__burger {
+  display: flex;
+  width: 24px;
+  height: 15px;
+  background: url(https://i.ibb.co/ZWYPctm/menu.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin: 0 0 0 30px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu__burger:active {
+  width: 27px;
+  height: 19px;
+  margin: 0 0 0 27px;
+  background: url(https://i.ibb.co/ZWYPctm/menu.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border: 2px solid lightgrey;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Основной контент */
+
+.container__sections {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  width: 1440px;
+  height: 2700px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.sections__section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 767px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin: 59px auto 0;
+  padding: 0;
+  background: url(https://i.ibb.co/2P0n4Px/Tesla-Wordmark-Red.png) no-repeat;
+}
+
+.section__header {
+  position: relative;
+  width: 374px;
+  height: 110px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 110px;
+  margin: 0 auto;
+}
+
+.section__greeting {
+  display: flex;
+  width: 251px;
+  height: 19px;
+  font-size: 15px;
+  text-align: center;
+  margin: -10px auto 26px auto;
+  padding: 0;
+}
+
+.section__image-car {
+  display: flex;
+  width: 968px;
+  height: 450px;
+  padding: 0;
+  background: url(https://i.ibb.co/0fsqbX0/tesla-png-tesla-png-hd-1636.png);
+  background-size: 100%;
+  margin: 0 auto 26px;
+}
+
+/* ----------------------спецификация----------------------------- */
+
+.section__specifications {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  height: 58px;
+  margin: 0 auto;
+  border: 2px slid black;
+  padding: 0;
+}
+
+.time-speed {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  width: 160px;
+  height: 58px;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+.time-speed__speedometer {
+  display: flex;
+  width: 46px;
+  height: 58px;
+  margin: 0 0 0 0;
+  background: url(https://i.ibb.co/mSRKSz6/Speed.png) no-repeat;
+  background-size: 115%;
+  background-position: center bottom;
+  padding-left: 2px;
+}
+
+.numeral {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.time-speed__numeral {
+  display: flex;
+  width: 51px;
+  height: 43px;
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+.time-speed__text {
+  display: flex;
+  align-items: flex-end;
+  width: 37px;
+  height: 41px;
+  margin: 0 0 0 8px;
+  padding: 0;
+}
+
+.subtext {
+  font-size: 12px;
+  line-height: 15px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.time-speed__subtext {
+  display: flex;
+  width: 80px;
+  height: 15px;
+  margin: -17px 0 0 62px;
+}
+
+.distance {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 145px;
+  height: 58px;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.distance__line {
+  display: flex;
+  width: 31px;
+  height: 58px;
+  margin: 0 8px 0 0;
+  background: url(https://i.ibb.co/DCQBjjV/Road-icon.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.distance__numeral {
+  display: flex;
+  width: 63px;
+  height: 43px;
+  margin: 0 6.5px 0 0;
+  padding: 0;
+}
+
+.distance__text {
+  display: flex;
+  width: 29px;
+  height: 25px;
+  margin: 15px 1px 0;
+  padding: 0;
+}
+
+.distance__subtext {
+  display: flex;
+  width: 67px;
+  height: 15px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  margin: -18px 0 0 40px;
+  padding: 0;
+}
+
+.test-drive {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* руль тест */
+
+.test-drive__rudder {
+  display: flex;
+  width: 22px;
+  height: 58px;
+  margin: 0 6px 0 0;
+  background: url(https://i.ibb.co/wWgHDvw/steering-wheel.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.test-drive__link {
+  display: flex;
+  width: 89px;
+  height: 18px;
+  font-size: 13px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  margin: 0 40px 0 0;
+  text-transform: uppercase;
+}
+
+.test-drive__link:hover {
+  display: flex;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #f00;
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+}
+
+/* Кнопка Заказать */
+
+.button {
+  display: flex;
+  width: 160px;
+  height: 40px;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.test-drive__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #f00;
+  color: #f00;
+  background-color: #fff;
+}
+
+.test-drive__button:hover {
+  font-size: 14px;
+  color: #f00;
+  border: 3px solid #f00;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+}
+
+.test-drive__button:focus {
+  display: flex;
+  color: #f00;
+  border: 1px solid #f00;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+  outline: none;
+  box-shadow: 0 0 0 3px;
+}
+
+.test-drive__button:active {
+  background-color: #fff;
+  border-color: #f00;
+  color: #f00;
+  font-size: 12px;
+}
+
+/* Кнопка галка */
+
+.section__btn-pointer {
+  display: flex;
+  width: 34px;
+  height: 20px;
+  padding: 0;
+  margin: 37px auto 0 auto;
+  box-shadow: none;
+  background: url(https://i.ibb.co/GFX8Xs7/Vector-1.png) no-repeat;
+  background-size: contain;
+  position: center;
+  outline: none;
+  border: 1px solid white;
+}
+
+.section__btn-pointer:active {
+  width: 40px;
+  height: 25px;
+  outline: none;
+  margin: 32px auto 0;
+  box-shadow: 0 0 0 3px grey;
+}
+
+.section__btn-pointer:hover {
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  padding: 0;
+  border: 1px solid white;
+  outline: none;
+}
