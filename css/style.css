@@ -454,6 +454,14 @@
   border: 1px solid white;
 }
 
+.section__btn-pointer:active {
+  width: 40px;
+  height: 25px;
+  outline: none;
+  margin: 32px auto 0;
+  box-shadow: 0 0 0 3px grey;
+}
+
 .section__btn-pointer:hover {
   width: 40px;
   height: 25px;
@@ -461,12 +469,4 @@
   padding: 0;
   border: 1px solid white;
   outline: none;
-}
-
-.section__btn-pointer:active {
-  width: 40px;
-  height: 25px;
-  outline: none;
-  margin: 32px auto 0;
-  box-shadow: 0 0 0 3px grey;
 }
