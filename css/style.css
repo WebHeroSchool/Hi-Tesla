@@ -470,3 +470,361 @@
   margin: 32px auto 0;
   box-shadow: 0 0 0 3px grey;
 }
+
+/* ----------------------секция вторая----------------------------- */
+
+.sections__dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  width: 1440px;
+  height: 900px;
+  margin: 0 auto;
+  background: url(https://i.ibb.co/h8FRxMN/2013-tesla-model-s-cockpit.png) no-repeat;
+  background-size: 89.1%;
+  background-position: bottom left;
+}
+
+.dashboard__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 375px;
+  max-height: 123px;
+  font-size: 70px;
+  line-height: 85px;
+  font-weight: 600;
+  color: #f00;
+  flex: auto;
+  padding: 40px 0 0 76px;
+  margin: 0;
+}
+
+.dashboard-right {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 40px;
+  color: white;
+  margin-left: 634px;
+}
+
+.sidebar {
+  display: flex;
+  flex-flow: column wrap;
+  width: 440px;
+  height: 900px;
+  color: #fff;
+  background: #f00;
+  background-size: 100%;
+  margin-top: 0;
+}
+
+.title {
+  display: flex;
+  font-size: 30px;
+  line-height: 37px;
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+}
+
+.sidebar__title {
+  display: flex;
+  justify-content: center;
+  width: 316px;
+  height: 37px;
+  color: #fff;
+  margin: 49px 72px 11px 52px;
+}
+
+.item {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.sidebar__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 316px;
+  height: 206px;
+  padding: 0;
+  margin: 0 72px 54px 52px;
+}
+
+/* Символы */
+
+.sidebar__symbol {
+  display: flex;
+  flex-flow: column;
+  margin: 0 0 0 51px;
+  margin-bottom: 171px;
+}
+
+.symbol {
+  width: 269px;
+  height: 267px;
+}
+
+/* Символ display */
+
+.symbol__display {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  width: 200px;
+  height: 65px;
+  margin-bottom: 35px;
+  padding: 0;
+}
+
+.display-page {
+  display: flex;
+  flex-direction: row;
+  height: 65px;
+}
+
+.display-page__img {
+  display: flex;
+  flex-direction: row;
+  width: 36px;
+  height: 53px;
+  background: url(https://i.ibb.co/2d14C2z/screen-display.png) no-repeat;
+  background-size: 100%;
+  margin: 12px 19px 0 0;
+}
+
+.display-text {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 155px;
+  height: 65px;
+}
+
+.display-text__numeral {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  margin: 0 0 0 1px;
+}
+
+.display-text__text {
+  width: 87px;
+  height: 23px;
+  margin: 13px 0 0 13px;
+}
+
+.display-text__subtext {
+  display: flex;
+  width: 127px;
+  height: 15px;
+  margin: 0;
+  margin-bottom: 4px;
+  margin-left: 1px;
+}
+
+/* Символ Wi-Fi */
+
+.symbol__WiFi {
+  display: flex;
+  flex-direction: row;
+  width: 269px;
+  height: 71px;
+  margin-bottom: 25px;
+}
+
+.WiFi-page {
+  display: flex;
+  flex-direction: row;
+  width: 64px;
+  height: 34px;
+  margin-top: 17px;
+}
+
+.WiFi-page__img {
+  display: flex;
+  width: 44px;
+  height: 34px;
+  background: url(https://i.ibb.co/JtT1gvW/wifi.png) no-repeat;
+  background-size: 100%;
+  padding: 0;
+}
+
+.WiFi-text {
+  display: flex;
+  flex-flow: column wrap;
+  width: 225px;
+  height: 71px;
+}
+
+.WiFi-text__text {
+  display: flex;
+  text-align: left;
+  line-height: 18px;
+  width: 172.68px;
+  height: 36px;
+  margin: 0 0 0 3px;
+}
+
+.WiFi-text__subtext {
+  display: flex;
+  width: 205px;
+  height: 30px;
+  margin: 0;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+/* Символ bag */
+
+.symbol__bag {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  width: 210px;
+  height: 71px;
+}
+
+.bag-page {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  width: 62px;
+  height: 65px;
+  padding-bottom: 10px;
+}
+
+.bag-page__img {
+  display: flex;
+  width: 36px;
+  height: 53px;
+  background: url(https://i.ibb.co/zQ7Kmns/bag.png) no-repeat;
+  background-size: contain;
+  padding: 0;
+  margin: 10px 0 0 1px;
+}
+
+.bag-text {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  width: 155px;
+  height: 65px;
+}
+
+.bag-text__numeral {
+  display: flex;
+  flex-grow: 0;
+  width: 69px;
+  height: 37px;
+  margin: 0;
+}
+
+.bag-text__text {
+  display: flex;
+  flex-grow: 0;
+  width: 63px;
+  height: 22px;
+  margin: 15px 0 0 12px;
+}
+
+.bag-text__subtext {
+  display: flex;
+  width: 115px;
+  height: 28px;
+  margin: 2px 0 0 2px;
+}
+
+/* ссылка тест и кнопка заказать */
+
+.sidebar__info {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 352px;
+  height: 40px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.info__image {
+  display: flex;
+  width: 22px;
+  height: 22px;
+  background: url(https://i.ibb.co/zFFHDgv/Group-15.png) no-repeat;
+  background-size: 100%;
+  margin: 0 0 0 6px;
+}
+
+.info__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 137px;
+  height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  margin: 0 24px 0 9px;
+}
+
+.info__link:hover {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+}
+
+.info__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #f00;
+}
+
+.info__button:hover {
+  font-size: 14px;
+  color: #fff;
+  border: 3px solid #fff;
+  background-color: #f00;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+}
+
+.info__button:focus {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #f00;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+
+.info__button:active {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+  font-size: 12px;
+}
