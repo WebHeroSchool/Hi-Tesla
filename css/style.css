@@ -421,7 +421,7 @@
 
 .test-drive__button:focus {
   display: flex;
-  color: #ff0000;
+  color: #f00;
   border: 1px solid #f00;
   background-color: #fff;
   cursor: pointer;
@@ -471,7 +471,7 @@
   box-shadow: 0 0 0 3px grey;
 }
 
-/* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/ /* Секция 2*/
+/* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */
 
 .sections__dashboard {
   display: flex;
@@ -589,8 +589,6 @@
 .display-page {
   display: flex;
   flex-direction: row;
-  flex-grow: 0;
-  flex: 0 0 55px;
   height: 65px;
 }
 
@@ -630,7 +628,9 @@
   margin-left: 0;
   width: 127px;
   height: 15px;
-  margin: 0 0 4px 1px;
+  margin: 0;
+  margin-bottom: 4px;
+  margin-left: 1px;
 }
 
 /* Символ Wi-Fi */
@@ -678,10 +678,11 @@
 
 .WiFi-text__subtext {
   display: flex;
-  margin-left: 0px;
   width: 205px;
   height: 30px;
-  margin: 3px 0 0 2px;
+  margin: 0;
+  margin-top: 3px;
+  margin-left: 2px;
 }
 
 /* Символ bag */
