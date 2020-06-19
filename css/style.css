@@ -471,7 +471,7 @@
   box-shadow: 0 0 0 3px grey;
 }
 
-/* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */ /* Секция 2 */
+/* ----------------------------------------Секция 2-------------------------------------------------------------- */ 
 
 .sections__dashboard {
   display: flex;
@@ -480,8 +480,7 @@
   width: 1440px;
   height: 900px;
   margin: 0 auto;
-  background: url(https://i.ibb.co/h8FRxMN/2013-tesla-model-s-cockpit.png)
-    no-repeat;
+  background: url(https://i.ibb.co/h8FRxMN/2013-tesla-model-s-cockpit.png) no-repeat;
   background-size: 89.1%;
   background-position: bottom left;
 }
@@ -625,7 +624,6 @@
 
 .display-text__subtext {
   display: flex;
-  margin-left: 0;
   width: 127px;
   height: 15px;
   margin: 0;
