@@ -1066,7 +1066,6 @@ li { list-style-type: none; }
   background-color: #f00;
   text-transform: uppercase;
 }
-
 .info__button:hover {
   font-size: 14px;
   color: #fff;
