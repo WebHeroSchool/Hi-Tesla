@@ -173,7 +173,7 @@
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  margin: 0px auto 0;
+  margin: 0 auto 0;
   padding: 0;
   background: url(https://i.ibb.co/2P0n4Px/Tesla-Wordmark-Red.png) no-repeat;
 }
@@ -1042,7 +1042,7 @@ li { list-style-type: none; }
   height: 592px;
   right: 102px;
   top: 168px;
-  margin: 0 0 0px 10px;
+  margin: 0 0 0 10px;
   padding: 0;
   background: url(https://i.ibb.co/rZbd7qZ/Car-frame-group.png) no-repeat;
   background-size: 100%;
