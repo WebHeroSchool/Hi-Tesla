@@ -1192,7 +1192,7 @@ li { list-style-type: none; }
     font-size: 50px;
     line-height: 61px;
   }
-  
+
   .time-speed__text {
     display: flex;
     align-items: flex-start;
@@ -2011,7 +2011,7 @@ li { list-style-type: none; }
     margin: 16px 13.86px 9.02px 0;
     background: url(https://i.ibb.co/tq5JKLs/speed-mob.png) no-repeat;
     background-size: 100%;
-    background-position: center auto top 0px;
+    background-position: center auto top 0;
     padding: 0;
   }
 
@@ -2176,7 +2176,7 @@ li { list-style-type: none; }
     cursor: pointer;
     padding: 0;
     border: 0;
-  }  
+  }
 
   .test-drive__button {
     display: flex;
@@ -2375,7 +2375,7 @@ li { list-style-type: none; }
     display: none;
   }
 
-    /* правая часть секции, каркас */
+  /* правая часть секции, каркас */
   
   .frame__image-car {
     display: flex;
