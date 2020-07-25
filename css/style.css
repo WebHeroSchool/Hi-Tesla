@@ -1149,7 +1149,7 @@ li { list-style-type: none; }
     background-size: contain;
     margin-bottom: 0 0 36.55px 0;
   }
-
+  
   .section__specifications {
     display: flex;
     flex-flow: row wrap;
@@ -1213,7 +1213,7 @@ li { list-style-type: none; }
     font-style: normal;
     font-weight: normal;
   }
-  
+ 
   .time-speed__subtext {
     display: flex;
     justify-content: flex-start;
@@ -1242,7 +1242,7 @@ li { list-style-type: none; }
     background-size: 100% 90%;
     background-position: right bottom;
   }
-  
+
   .distance__numeral {
     display: flex;
     width: 90.29px;
@@ -1254,7 +1254,7 @@ li { list-style-type: none; }
     font-size: 50px;
     line-height: 61px;
   }
-  
+
   .distance__text {
     display: flex;
     align-content: flex-start;
@@ -1263,7 +1263,7 @@ li { list-style-type: none; }
     margin: 21.5px 0 0;
     padding: 0;
   }
-  
+
   .distance__subtext {
     display: flex;
     width: 96.02px;
@@ -1284,7 +1284,7 @@ li { list-style-type: none; }
     font-weight: bold;
     text-transform: uppercase;
   }
-  
+
   .test-drive {
     display: flex;
     flex-flow: row wrap;
