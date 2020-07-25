@@ -1,4 +1,4 @@
-﻿body {
+body {
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;
 }
@@ -7,7 +7,7 @@
   display: flex;
   flex-flow: column nowrap;
   align-content: flex-start;
-  width: 1440px;
+  max-width: 1440px;
   height: 100%;
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
@@ -33,7 +33,7 @@
   height: 51px;
   background: url(https://i.ibb.co/x1r6ZBx/Tesla-Wordmark-Red.png;);
   background-size: 100%;
-  background-position: center;
+  background-position: right 9px bottom 4px;
   padding: 0;
   margin: 0;
 }
@@ -66,7 +66,7 @@
   color: #f00;
   border-bottom: 2px solid #f00;
   padding-bottom: 6px;
-  padding-top: 5px;
+  padding-top: 2px;
   border-radius: 0 0 3px 3px;
 }
 
@@ -84,55 +84,55 @@
   display: flex;
   width: 62px;
   height: 19px;
-  margin: 0 62px 0 260px;
+  margin: 0 65px 0 246px;
 }
 
 .nav__link:nth-child(2) {
   display: flex;
   width: 63px;
   height: 19px;
-  margin: 0 24.86px 0 0;
+  margin: 0 25px 4px 0;
 }
 
 .nav__link:nth-child(3) {
   display: flex;
   width: 61px;
   height: 19px;
-  margin: 0 44px 0 0;
+  margin: 0 44px 4px 0;
 }
 
 .nav__link:nth-child(4) {
   width: auto;
   height: 19px;
-  margin: 0 46px 0 0;
+  margin: 0 46px 4px 0;
 }
 
 .nav__link:nth-child(5) {
   width: 55px;
   height: 19px;
-  margin: 0;
+  margin: 0 0 4px 0;
 }
 
 .nav__link:nth-child(6) {
   width: 69px;
   height: 19px;
-  margin: 0 28px 0 222px;
+  margin: 0 30px 4px 221px;
 }
 
 .nav__link:nth-child(7) {
   width: 50px;
   height: 19px;
-  margin: 0;
+  margin: 0 0 4px 0;
 }
 
 .menu__burger {
   display: flex;
   width: 24px;
-  height: 15px;
+  height: 17px;
   background: url(https://i.ibb.co/ZWYPctm/menu.png) no-repeat;
-  background-size: 100%;
-  background-position: center;
-  margin: 0 0 0 30px;
+  background-size: 85%;
+  background-position: center bottom;
+  margin: 0 0 7px 20px;
   border: 0;
   outline: none;
   cursor: pointer;
@@ -156,7 +156,7 @@
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
-  width: 1440px;
+  max-width: 1440px;
   height: 100%;
   margin: 0 auto 0;
   padding: 0;
@@ -169,13 +169,15 @@
   align-content: center;
   align-items: center;
   width: 1440px;
-  height: 767px;
+  height: 100%;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   margin: 0 auto 0;
   padding: 0;
   background: url(https://i.ibb.co/2P0n4Px/Tesla-Wordmark-Red.png) no-repeat;
+  background-size: 100%;
+  background-position: top;
 }
 
 .section__header {
@@ -186,7 +188,7 @@
   font-weight: 600;
   font-size: 90px;
   line-height: 110px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .section__greeting {
@@ -195,7 +197,7 @@
   height: 19px;
   font-size: 15px;
   text-align: center;
-  margin: -10px auto 26px auto;
+  margin: -15px 0 26px 10px;
   padding: 0;
 }
 
@@ -445,7 +447,7 @@
   width: 34px;
   height: 20px;
   padding: 0;
-  margin: 37px auto 0 auto;
+  margin: 37px auto 37px auto;
   box-shadow: none;
   background: url(https://i.ibb.co/GFX8Xs7/Vector-1.png) no-repeat;
   background-size: contain;
@@ -784,7 +786,7 @@
 }
 
 .info__link:hover {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -1016,7 +1018,6 @@ li { list-style-type: none; }
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-
   margin-left: 38px;
 }
 
@@ -1027,10 +1028,10 @@ li { list-style-type: none; }
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: center;
-  width: 996px;
+  width: 997px;
   height: 900px;
   background: url(https://i.ibb.co/mB0kjm6/Model-SS.png) no-repeat;
-  background-position: right 0 top 140px;
+  background-position: left 210px top 140px;
   margin: 0;
   padding: 0;
 }
@@ -1042,7 +1043,7 @@ li { list-style-type: none; }
   height: 592px;
   right: 102px;
   top: 168px;
-  margin: 0 0 0 10px;
+  margin: 2px 0 0 10px;
   padding: 0;
   background: url(https://i.ibb.co/rZbd7qZ/Car-frame-group.png) no-repeat;
   background-size: 100%;
@@ -1057,4 +1058,1355 @@ li { list-style-type: none; }
   background-position: center;
   background-size: 100%;
   margin: 0 0 12.52px 818px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 768px;
+    height: 100%;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+
+  .menu__nav {
+    display: none;
+  }
+
+  .container__menu {
+    display: flex;
+    width: 719.68px;
+    height: 51px;
+    justify-content: space-between;
+    margin: 24px 33px 80.32px 15.33px;
+  }
+
+  .menu__logo {
+    display: flex;
+    width: 166px;
+    height: 51px;
+    background: url(https://i.ibb.co/x1r6ZBx/Tesla-Wordmark-Red.png;);
+    background-size: 100%;
+    background-position: left bottom 4px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu__burger {
+    display: flex;
+    width: 35.23px;
+    height: 32px;
+    background: url(https://i.ibb.co/gzf1wRT/burger-ipad.png) no-repeat;
+    background-size: 100% 75%;
+    background-position: center center;
+    margin: 0 0 4px 0;
+    padding:0;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .container__sections {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 768px;
+    height:  100%;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+
+  .sections__section {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 768px;
+    height: 100%;
+    justify-content: flex-start;
+    align-content: center;
+    background: url(https://i.ibb.co/YBt2P1f/Tesla-Wordmark-Red-ipad.png) no-repeat;
+    background-size: 100%;
+    background-position: top 90px center;
+    margin: 0;
+  }
+
+  .section__greeting {
+    display: flex;
+    width: 251px;
+    height: 19px;
+    font-size: 15px;
+    text-align: center;
+    margin: -14px auto 87px auto;
+    padding: 0;
+  }
+
+  .section__image-car {
+    display: flex;
+    width: 672.6px;
+    height: 327.64px;
+    margin: 0;
+    padding: 0;
+    background: url(https://i.ibb.co/DWqCb1v/tesla-png-tesla-png-hd-1636-ipad.png);
+    background-size: contain;
+    margin: 0 0 36.55px 0;
+  }
+
+  .section__specifications {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 487.27px;
+    height: 196.14px;
+    margin: 0 auto 55px;
+    padding: 0;
+  }
+
+  .time-speed {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    width: 225px;
+    height: 83.12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .time-speed__speedometer {
+    display: flex;
+    width: 65.92px;
+    height: 50px;
+    margin: 17.2px 0 0 0;
+    background: url(https://i.ibb.co/Pj85jGG/Speed-ipad.png) no-repeat;
+    background-size: 100%;
+    background-position: center bottom;;
+  }
+  
+  .time-speed__numeral {
+    display: flex;
+    width: 73px;
+    height: 62px;
+    margin: 1.43px 0 0 20.06px;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+  }
+  
+  .time-speed__text {
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    width: 53.03px;
+    height: 35.83px;
+    margin: 22px 0 0 5px;
+    padding: 0;
+  }
+  
+  .subtext {
+    font-size: 12px;
+    line-height: 15px;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  .time-speed__subtext {
+    display: flex;
+    justify-content: flex-start;
+    width: 110.35px;
+    height: 21.5px;
+    margin: -10px 0 0 86px;
+  }
+
+  .distance {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 205px;
+    height: 83.12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .distance__line {
+    display: flex;
+    width: 48px;
+    height: 80px;
+    margin: 0 13px 0 0;
+    background: url(https://i.ibb.co/ZWxz2h2/Road-icon-ipad.png) no-repeat;
+    background-size: 100% 90%;
+    background-position: right bottom;
+  }
+  
+  .distance__numeral {
+    display: flex;
+    width: 90.29px;
+    height: 61.62px;
+    margin: 0 12px 0 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+  }
+  
+  .distance__text {
+    display: flex;
+    align-content: flex-start;
+    width: 41.56px;
+    height: 35.83px;
+    margin: 21.5px 0 0;
+    padding: 0;
+  }
+  
+  .distance__subtext {
+    display: flex;
+    width: 96.02px;
+    height: 21.5px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    margin: -22px 0 0 64px;
+    padding: 0;
+  }
+
+  .button {
+    display: flex;
+    width: 220.84px;
+    height: 55.21px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .test-drive {
+    display: flex;
+    flex-flow: row wrap;
+    width: 418.21px;
+    height: 55.21px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 34.53px 6px 34.53px;
+  }
+
+  .test-drive__rudder {
+    display: flex;
+    width: 30.37px;
+    height: 30.37px;
+    margin: 0 9px 0 0;
+    padding: 0;
+    background: url(https://i.ibb.co/Stm3197/2-7-red-wheel.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
+  .test-drive__link {
+    display: flex;
+    justify-content: center;
+    width: 122.84px;
+    height: 24.84px;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e61234;
+    margin: 0 34.51px 0 0;
+    text-transform: uppercase;
+  }
+
+  .test-drive__link:hover {
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+  }  
+
+  .test-drive__button {
+    display: flex;
+    width: 221px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #f00;
+  }
+  
+  .test-drive__button:hover {
+    font-size: 14px;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: #f00;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0;
+  }
+  
+  .test-drive__button:focus {
+    display: flex;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #f00;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0;
+    outline: none;
+    box-shadow: 0 0 0 3px;
+  }
+  
+  .test-drive__button:active {
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+    font-size: 12px;
+  }
+  
+  .section__btn-pointer {
+    display: flex;
+    width: 700px;
+    height: 20px;
+    padding: 0;
+    margin: 0 auto 61px auto;
+    box-shadow: none;
+    background: url(https://i.ibb.co/GFX8Xs7/Vector-1.png) no-repeat;
+    background-size: 5%;
+    background-position: center center;
+    outline: none;
+  }
+
+  /* -------2-------- */
+
+  .sections__dashboard {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 768px;
+    height: 988.03px;
+    align-content: flex-end;
+    margin: 0;
+    background: url(https://i.ibb.co/JkTYWY9/2013-tesla-model-s-cockpit-i-pad.png) no-repeat;
+    background-size: 100.5% 51%;
+    background-position: top left;
+   }
+  
+  .dashboard__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 375px;
+    max-height: 123px;
+    font-size: 70px;
+    line-height: 85px;
+    font-weight: 600;
+    color: #f00;
+    margin: 7.3px 0 0 390px;
+  }
+  
+  .dashboard-right {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 768px;
+    max-height: 487.21px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .dashboard-right__sidebar {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 768px;
+    max-height: 487.21px;
+    color: #fff;
+    background: #f00;
+    background-size: 100%;
+  }
+
+  .sidebar__title {
+    display: flex;
+    justify-content: center;
+    width: 316px;
+    height: 37px;
+    color: #fff;
+    margin: 55.58px 72px 20.51px 34px;
+  }
+  
+  .sidebar__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 316px;
+    height: 206px;
+    padding: 0;
+    margin: 0 80px 54px 34px;
+  }
+  
+  .sidebar__symbol {
+    display: flex;
+    flex-flow: row wrap;
+    margin: -60px 0 60px 20px;
+  }
+
+  .symbol__display {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    width: 200px;
+    height: 65px;
+    margin: 3px 0 8px 4px;
+    padding: 0;
+  }
+
+  .display-text__numeral {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 0 0 0 1px;
+  }
+
+  .display-text__text {
+    width: 87px;
+    height: 23px;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    margin: 13px 0 0 10px;
+  }
+
+  .display-text__subtext {
+    display: flex;
+    width: 127px;
+    height: 15px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 1px;
+  }
+
+  /* Символ Wi-Fi */
+
+  .symbol__WiFi {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 269px;
+    height: 71px;
+    margin: 0;
+  }
+
+  .WiFi-page {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height: 100%;
+    margin:0 16px 0 0;
+  }
+
+  .WiFi-page__img {
+    display: flex;
+    width: 44px;
+    height: 34px;
+    background: url(https://i.ibb.co/JtT1gvW/wifi.png) no-repeat;
+    background-size: 100%;
+    background-position: right 2px center;
+    margin: 13px 3px 0 0;
+    padding: 0;
+  }
+
+  .WiFi-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+  }
+
+  .WiFi-text__text {
+    display: flex;
+    justify-content: flex-start;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    width: 180px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .WiFi-text__subtext {
+    display: flex;
+    width: 205px;
+    height: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 0 1px 2px;
+  }
+
+  /* Символ bag */
+
+  .symbol__bag {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    width: 210px;
+    height: 71px;
+  }
+
+  .bag-page {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    width: 65px;
+    height: 65px;
+    padding-bottom: 10px;
+  }
+
+  .bag-page__img {
+    display: flex;
+    width: 36px;
+    height: 53px;
+    background: url(https://i.ibb.co/zQ7Kmns/bag.png) no-repeat;
+    background-size: contain;
+    padding: 0;
+    margin: 15px 0 0 2px;
+  }
+
+  .bag-text {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 0;
+    width: 155px;
+    height: 65px;
+  }
+
+  .bag-text__numeral {
+    display: flex;
+    flex-grow: 0;
+    width: 69px;
+    height: 37px;
+    margin: 0;
+  }
+
+  .bag-text__text {
+    display: flex;
+    flex-grow: 0;
+    width: 63px;
+    height: 22px;
+    margin: 15px 0 3px 12px;
+  }
+
+  .bag-text__subtext {
+    display: flex;
+    width: 115px;
+    height: 28px;
+    margin: 2px 0 0 2px;
+  }
+
+  /* ---ссылка тест и кнопка заказать--- */
+
+  .info {
+    display: flex;
+    width: 459px;
+    height: 55.21px;
+  }
+
+  .sidebar__info {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0 154.5px;
+    text-transform: uppercase;
+  }
+
+  .info__image {
+    display: flex;
+    width: 31.18px;
+    height: 31.18px;
+    background: url(https://i.ibb.co/zFFHDgv/Group-15.png) no-repeat;
+    background-size: 100%;
+    margin: 0 3.5px 0 0;
+  }
+
+  .info__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 167px;
+    height: 24.84px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0 36.46px 0 0;
+  }
+
+  .info__link:hover {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+  }
+
+  .info__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #f00;
+  }
+
+  .info__button:hover {
+    font-size: 17px;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: #f00;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0;
+  }
+
+  .info__button:focus {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #f00;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0;
+    outline: none;
+    box-shadow: 0 0 0 3px lightskyblue;
+  }
+
+  .info__button:active {
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+    font-size: 15px;
+  }
+
+  /* -------3-------- */
+
+  .frame {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+    max-width: 768px;
+    height: 1000.25px;
+    margin: 0 auto;
+  }
+    
+  .frame__sidebar {
+    display: flex;
+    order: 2;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    max-width: 768px;
+    max-height: 487.21px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    background: #f00;
+    background-size: 100%;
+  }
+  
+  .frame__title {
+    display: flex;
+    width: 316px;
+    height: 74px;
+    margin: 62.82px 71.88px 0 34px;
+  }
+  
+  .frame__item {
+    display: flex;
+    width: 316px;
+    height: 134px;
+    margin: 12px 71.88px 85.33px 34px;
+  }
+  
+  /* Оценка защиты */
+  
+  .frame__title-rating {
+    display: flex;
+    width: 263px;
+    height: 37px;
+    margin: 62.82px 0 29px 0;
+  }
+  
+  .frame__result {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 295px;
+    height: 173px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 21px;
+    list-style: none;
+    margin: 0 0 69.33px 0;
+  }
+  
+  .result-left {
+    display: flex;
+    width: 151px;
+    height: 173px;
+    margin: 0;
+  }
+  
+  li { list-style-type: none; }
+  
+  .result-left__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+
+  .result-right {
+    display: flex;
+    width: 140px;
+    height: 173px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .result-right__list {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .result-right__item {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 138px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Результат оценки защиты */
+
+  .frame__five-star {
+    display: none;
+  }
+
+  /* ссылка тест и кнопка заказать */
+
+ .frame__info {
+    z-index: 2;
+    position: inherit;
+    width: 459px;
+    height: 55.21px;
+    margin: 0 0 0 -270px;
+  }
+
+    /* правая часть секции, каркас */
+  
+  .frame__image-car {
+    display: flex;
+    order: 1;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    max-width: 768px;
+    height: 537.79px;
+    background: url(https://i.ibb.co/f2zxkQR/Model-S-fon-i-pad.png) no-repeat;
+    background-size: 77%;
+    background-position: top 70px left 95px;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .image-car__sceleton {
+    display: flex;
+    position: inherit;
+    width: 735px;
+    height: 431px;
+    margin: 0 0 30px 0;
+    padding: 0;
+    background: url(https://i.ibb.co/6sCg2j7/Car-frame-group-i-pad.png) no-repeat;
+    background-size: 100%;
+    background-position: left;
+  }
+    
+  .image-car__webHero {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 375px;
+    height: 100%;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    background: url(https://i.ibb.co/ySWn31F/IMG-20200714-193019-177.jpg) no-repeat;
+    background-size: 100%;
+    background-position: top;
+  }
+
+  .menu__logo {
+    display: flex;
+    width: 138px;
+    height: 42px;
+    background: url(https://i.ibb.co/x1r6ZBx/Tesla-Wordmark-Red.png;);
+    background-size: 100%;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu__nav {
+    display: none;
+  }
+
+  .container__menu {
+    display: flex;
+    width: 352px;
+    height: 42px;
+    justify-content: space-between;
+    margin: 75px 21px 30px 2px;
+  }
+
+  .menu__burger {
+    display: flex;
+    width: 24px;
+    height: 17px;
+    background: url(https://i.ibb.co/ZWYPctm/menu.png) no-repeat;
+    background-size: 85%;
+    background-position: center bottom;
+    margin: 0 0 4px 20px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .container__sections {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 375px;
+    height: 100%;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+
+  .sections__section {
+    display: flex;
+    flex-flow: column wrap;
+    width: 375px;
+    height: 100%;
+    justify-content: flex-start;
+    align-content: center;
+    background: url(https://i.ibb.co/N25cTZS/Tesla-Wordmark-Red-mobile.png) no-repeat;
+    background-size: 100%;
+    background-position: left top 80px ;
+    margin: 0;
+  }
+
+  .section__header {
+    position: relative;
+    width: 206px;
+    height: 61px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    margin: 0 auto;
+  }
+
+  .section__greeting {
+    display: flex;
+    flex-flow: nowrap;
+    width: 171px;
+    height: 13px;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    margin: -3px auto 49px auto;
+    padding: 0;
+  }
+
+  .section__image-car {
+    display: flex;
+    width: 357px;
+    height: 166px;
+    padding: 0;
+    background: url(https://i.ibb.co/0fsqbX0/tesla-png-tesla-png-hd-1636.png);
+    background-size: contain;
+    margin: 0 auto 18px auto;
+  }
+
+  .section__specifications {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 303px;
+    height: 136px;
+    margin: 0 auto 34px;
+    padding: 0;
+  }
+
+  .time-speed {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    width: 130px;
+    height: 53px;
+    margin: 0 30px 0 6px;
+    padding: 0;
+  }
+
+  .time-speed__speedometer {
+    display: flex;
+    width: 38.14px;
+    height: 28.7px;
+    margin: 16px 13.86px 9.02px 0;
+    background: url(https://i.ibb.co/tq5JKLs/speed-mob.png) no-repeat;
+    background-size: 100%;
+    background-position: center auto top 0px;
+    padding : 0;
+  }
+  
+  .time-speed__numeral {
+    display: flex;
+    width: 39px;
+    height: 43px;
+    margin: 0 8px 0 0;
+    padding: 2px 0 0 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    align-items: center;
+  }
+  
+  .text {
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .time-speed__text {
+    display: flex;
+    align-items: flex-start;
+    width: 28px;
+    height: 19px;
+    margin: 19px 0 0 0;
+    padding: 0;
+  }
+  
+  .subtext {
+    font-size: 10px;
+    line-height: 12px;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  .time-speed__subtext {
+    display: flex;
+    align-content: flex-start;
+    width: 64px;
+    height: 13px;
+    margin: -13px 0 0 52px;
+  }
+
+  .distance {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 115px;
+    height: 53px;
+    margin: 0 14px 0 0;
+    padding: 0;
+  }
+
+  .distance__line {
+    display: flex;
+    width: 25.29px;
+    height: 41px;
+    margin: 10px 11.71px 2px 0;
+    background: url(https://i.ibb.co/JK7BzBg/Group-2-mob.png) no-repeat;
+    background-size: 100% 90%;
+    background-position: center bottom;
+  }
+  
+  .distance__numeral {
+    display: flex;
+    width: 49px;
+    height: 43px;
+    margin: 0 7px 0 0;
+    padding: 2px 0 0 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    align-items: center;
+  }
+  
+  .distance__text {
+    display: flex;
+    align-content: flex-start;
+    width: 22px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 19px 0 0;
+    padding: 0;
+  }
+  
+  .distance__subtext {
+    display: flex;
+    width: 56px;
+    height: 13px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    font-size: 10px;
+    line-height: 12px;
+    margin: -12px 0 0 37px;
+    padding: 0;
+  }
+
+  .button {
+    display: flex;
+    width: 160px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .test-drive {
+    display: flex;
+    flex-flow: row wrap;
+    width: 303px;
+    height: 40px;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+  }
+
+  .test-drive__rudder {
+    display: flex;
+    width: 22px;
+    height: 22px;
+    margin: 0 7px 0 0;
+    padding: 0;
+    background: url(https://i.ibb.co/Stm3197/2-7-red-wheel.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
+  .test-drive__link {
+    display: flex;
+    width: 89px;
+    height: 18px;
+    font-size: 13px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e61234;
+    margin: 0 25px 0 0;
+    text-transform: uppercase;
+  }
+
+  .test-drive__link:hover {
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+  }  
+
+  .test-drive__button {
+    display: flex;
+    width: 160px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    color: #fff;
+    background-color: #f00;
+  }
+  
+  .test-drive__button:hover {
+    font-size: 14px;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: #f00;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0;
+  }
+  
+  .test-drive__button:focus {
+    display: flex;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #f00;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0;
+    outline: none;
+    box-shadow: 0 0 0 3px;
+  }
+  
+  .test-drive__button:active {
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+    font-size: 12px;
+  }
+  
+  .section__btn-pointer {
+    display: flex;
+    width: 360px;
+    height: 14px;
+    padding: 0;
+    margin: 0 auto ;
+    box-shadow: none;
+    background: url(https://i.ibb.co/GFX8Xs7/Vector-1.png) no-repeat;
+    background-size: 7%;
+    background-position: center center;
+    outline: none;
+  }
+
+  /* -------2-------- */
+
+  .sections__dashboard {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 375px;
+    height: 100%;
+    align-content: flex-end;
+    margin: 0;
+    background: url(https://i.ibb.co/JkTYWY9/2013-tesla-model-s-cockpit-i-pad.png) no-repeat;
+    background-size: 137%;
+    background-position: top left -58px;
+  }
+  
+  .dashboard__header {
+    display: none;
+  }
+  
+  .dashboard-right {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 375px;
+    max-height: 487.21px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .dashboard-right__sidebar {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 375px;
+    max-height: 300px;
+    color: #fff;
+    background: #f00;
+    background-size: 100%;
+    margin: 325px 0 0;
+  }
+  
+  .sidebar__symbol {
+    display: none;
+  }
+
+  .sidebar__title {
+    display: flex;
+    justify-content: center;
+    width: 316px;
+    height: 37px;
+    color: #fff;
+    margin: 18px 0 9px 27px;
+  }
+
+  .sidebar__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 316px;
+    height: 206px;
+    padding: 0;
+    margin: 0 0 0 27px;
+  }
+
+  /* ---ссылка тест и кнопка заказать--- */
+
+  .info {
+    display: none;
+  }
+
+  .sidebar__info {
+    display: none;
+  }
+
+   /* -------3-------- */
+
+  .frame {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+    max-width: 375px;
+    height: 100%;
+    margin: 0 auto;
+  }
+    
+  .frame__sidebar {
+    display: flex;
+    order: 2;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+    max-width: 375px;
+    max-height: 304px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    background: #f00;
+    background-size: 100%;
+    margin: 0;
+  }
+  
+  .frame__title {
+    display: flex;
+    width: 316px;
+    height: 74px;
+    margin: 18px 0 11px 0;
+  }
+  
+  .frame__item {
+    display: flex;
+    width: 316px;
+    height: 199px;
+    margin: 0;
+  }
+  
+  /* Оценка защиты */
+  
+  .frame__title-rating {
+    display: none;
+  }
+  
+  .frame__result {
+    display: none;
+  }
+  
+  /* ссылка тест и кнопка заказать */
+
+  .frame__info {
+    display: none;
+  }
+
+    /* правая часть секции, каркас */
+  
+  .frame__image-car {
+    display: flex;
+    order: 1;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-content: center;
+    max-width: 375px;
+    height: 294px;
+    background: url(https://i.ibb.co/f2zxkQR/Model-S-fon-i-pad.png) no-repeat;
+    background-size: 106% 25%;
+    background-position: top 48px left 1px;
+    margin: 142px 0 0 0;
+    padding: 0;
+  }
+    
+  .image-car__sceleton {
+    display: flex;
+    position: inherit;
+    width: 361.83px;
+    height: 204.19px;
+    margin: 0 15.3px 33px 13px;
+    padding: 0;
+    background: url(https://i.ibb.co/Ky2BSyC/Car-frame-group-mob.png) no-repeat;
+    background-size: 98%;
+    background-position: left;
+  }
+    
+  .image-car__webHero {
+    display: none;
+  }
 }
