@@ -1102,7 +1102,7 @@ li { list-style-type: none; }
     background-size: 100% 75%;
     background-position: center center;
     margin: 0 0 4px 0;
-    padding:0;
+    padding: 0;
     border: 0;
     outline: none;
     cursor: pointer;
@@ -1112,7 +1112,7 @@ li { list-style-type: none; }
     display: flex;
     flex-flow: column wrap;
     max-width: 768px;
-    height:  100%;
+    height: 100%;
     justify-content: flex-start;
     align-content: flex-start;
   }
@@ -1144,11 +1144,10 @@ li { list-style-type: none; }
     display: flex;
     width: 672.6px;
     height: 327.64px;
-    margin: 0;
     padding: 0;
     background: url(https://i.ibb.co/DWqCb1v/tesla-png-tesla-png-hd-1636-ipad.png);
     background-size: contain;
-    margin: 0 0 36.55px 0;
+    margin-bottom: 0 0 36.55px 0;
   }
 
   .section__specifications {
@@ -1179,9 +1178,9 @@ li { list-style-type: none; }
     margin: 17.2px 0 0 0;
     background: url(https://i.ibb.co/Pj85jGG/Speed-ipad.png) no-repeat;
     background-size: 100%;
-    background-position: center bottom;;
+    background-position: center bottom;
   }
-  
+
   .time-speed__numeral {
     display: flex;
     width: 73px;
@@ -1333,7 +1332,7 @@ li { list-style-type: none; }
     cursor: pointer;
     padding: 0;
     border: 0;
-  }  
+  }
 
   .test-drive__button {
     display: flex;
@@ -1346,7 +1345,6 @@ li { list-style-type: none; }
     font-size: 16px;
     line-height: 20px;
     text-align: center;
-    font-weight: bold;
     border: 2px solid #fff;
     color: #fff;
     background-color: #f00;
@@ -1406,8 +1404,8 @@ li { list-style-type: none; }
     background: url(https://i.ibb.co/JkTYWY9/2013-tesla-model-s-cockpit-i-pad.png) no-repeat;
     background-size: 100.5% 51%;
     background-position: top left;
-   }
-  
+  }
+   
   .dashboard__header {
     display: flex;
     justify-content: center;
@@ -1528,7 +1526,7 @@ li { list-style-type: none; }
     flex-direction: row;
     width: 50px;
     height: 100%;
-    margin:0 16px 0 0;
+    margin: 0 16px 0 0;
   }
 
   .WiFi-page__img {
@@ -1838,7 +1836,7 @@ li { list-style-type: none; }
 
   /* ссылка тест и кнопка заказать */
 
- .frame__info {
+  .frame__info {
     z-index: 2;
     position: inherit;
     width: 459px;
@@ -1846,7 +1844,7 @@ li { list-style-type: none; }
     margin: 0 0 0 -270px;
   }
 
-    /* правая часть секции, каркас */
+  /* правая часть секции, каркас */
   
   .frame__image-car {
     display: flex;
@@ -1948,7 +1946,7 @@ li { list-style-type: none; }
     align-content: center;
     background: url(https://i.ibb.co/N25cTZS/Tesla-Wordmark-Red-mobile.png) no-repeat;
     background-size: 100%;
-    background-position: left top 80px ;
+    background-position: left top 80px;
     margin: 0;
   }
 
@@ -2014,9 +2012,9 @@ li { list-style-type: none; }
     background: url(https://i.ibb.co/tq5JKLs/speed-mob.png) no-repeat;
     background-size: 100%;
     background-position: center auto top 0px;
-    padding : 0;
+    padding: 0;
   }
-  
+
   .time-speed__numeral {
     display: flex;
     width: 39px;
@@ -2228,7 +2226,7 @@ li { list-style-type: none; }
     width: 360px;
     height: 14px;
     padding: 0;
-    margin: 0 auto ;
+    margin: 0 auto;
     box-shadow: none;
     background: url(https://i.ibb.co/GFX8Xs7/Vector-1.png) no-repeat;
     background-size: 7%;
@@ -2318,7 +2316,7 @@ li { list-style-type: none; }
     display: none;
   }
 
-   /* -------3-------- */
+  /* -------3-------- */
 
   .frame {
     display: flex;
