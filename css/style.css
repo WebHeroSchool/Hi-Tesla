@@ -1149,7 +1149,7 @@ li { list-style-type: none; }
     background-size: contain;
     margin-bottom: 0 0 36.55px 0;
   }
-  
+
   .section__specifications {
     display: flex;
     flex-flow: row wrap;
@@ -1213,7 +1213,7 @@ li { list-style-type: none; }
     font-style: normal;
     font-weight: normal;
   }
- 
+
   .time-speed__subtext {
     display: flex;
     justify-content: flex-start;
@@ -1349,7 +1349,7 @@ li { list-style-type: none; }
     color: #fff;
     background-color: #f00;
   }
-  
+
   .test-drive__button:hover {
     font-size: 14px;
     color: #fff;
@@ -1359,7 +1359,7 @@ li { list-style-type: none; }
     font-weight: bold;
     padding: 0;
   }
-  
+
   .test-drive__button:focus {
     display: flex;
     color: #fff;
@@ -1371,14 +1371,14 @@ li { list-style-type: none; }
     outline: none;
     box-shadow: 0 0 0 3px;
   }
-  
+
   .test-drive__button:active {
     background-color: #fff;
     border-color: #000;
     color: #000;
     font-size: 12px;
   }
-  
+
   .section__btn-pointer {
     display: flex;
     width: 700px;
@@ -1405,7 +1405,7 @@ li { list-style-type: none; }
     background-size: 100.5% 51%;
     background-position: top left;
   }
-   
+
   .dashboard__header {
     display: flex;
     justify-content: center;
@@ -1418,7 +1418,7 @@ li { list-style-type: none; }
     color: #f00;
     margin: 7.3px 0 0 390px;
   }
-  
+
   .dashboard-right {
     display: flex;
     flex-flow: row wrap;
@@ -1429,7 +1429,7 @@ li { list-style-type: none; }
     font-size: 40px;
     color: white;
   }
-  
+
   .dashboard-right__sidebar {
     display: flex;
     flex-flow: row wrap;
@@ -1731,7 +1731,7 @@ li { list-style-type: none; }
     height: 1000.25px;
     margin: 0 auto;
   }
-    
+
   .frame__sidebar {
     display: flex;
     order: 2;
@@ -1747,30 +1747,30 @@ li { list-style-type: none; }
     background: #f00;
     background-size: 100%;
   }
-  
+
   .frame__title {
     display: flex;
     width: 316px;
     height: 74px;
     margin: 62.82px 71.88px 0 34px;
   }
-  
+
   .frame__item {
     display: flex;
     width: 316px;
     height: 134px;
     margin: 12px 71.88px 85.33px 34px;
   }
-  
+
   /* Оценка защиты */
-  
+
   .frame__title-rating {
     display: flex;
     width: 263px;
     height: 37px;
     margin: 62.82px 0 29px 0;
   }
-  
+
   .frame__result {
     display: flex;
     flex-flow: row wrap;
@@ -1783,16 +1783,16 @@ li { list-style-type: none; }
     list-style: none;
     margin: 0 0 69.33px 0;
   }
-  
+
   .result-left {
     display: flex;
     width: 151px;
     height: 173px;
     margin: 0;
   }
-  
+
   li { list-style-type: none; }
-  
+
   .result-left__list {
     display: flex;
     flex-direction: column;
@@ -1808,7 +1808,7 @@ li { list-style-type: none; }
     padding: 0;
     margin: 0;
   }
-  
+
   .result-right__list {
     display: flex;
     flex-flow: column wrap;
@@ -1816,7 +1816,7 @@ li { list-style-type: none; }
     padding: 0;
     margin: 0;
   }
-  
+
   .result-right__item {
     display: flex;
     flex-flow: row wrap;
@@ -1845,7 +1845,7 @@ li { list-style-type: none; }
   }
 
   /* правая часть секции, каркас */
-  
+
   .frame__image-car {
     display: flex;
     order: 1;
@@ -1860,7 +1860,7 @@ li { list-style-type: none; }
     margin: 0;
     padding: 0;
   }
-    
+
   .image-car__sceleton {
     display: flex;
     position: inherit;
@@ -1872,7 +1872,7 @@ li { list-style-type: none; }
     background-size: 100%;
     background-position: left;
   }
-    
+
   .image-car__webHero {
     display: none;
   }
@@ -2327,7 +2327,7 @@ li { list-style-type: none; }
     height: 100%;
     margin: 0 auto;
   }
-    
+  
   .frame__sidebar {
     display: flex;
     order: 2;
@@ -2391,7 +2391,7 @@ li { list-style-type: none; }
     margin: 142px 0 0 0;
     padding: 0;
   }
-    
+  
   .image-car__sceleton {
     display: flex;
     position: inherit;
@@ -2403,7 +2403,7 @@ li { list-style-type: none; }
     background-size: 98%;
     background-position: left;
   }
-    
+  
   .image-car__webHero {
     display: none;
   }
