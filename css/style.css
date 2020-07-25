@@ -1457,7 +1457,7 @@ li { list-style-type: none; }
     color: #fff;
     margin: 55.58px 72px 20.51px 34px;
   }
-  
+
   .sidebar__item {
     display: flex;
     align-items: flex-start;
@@ -1467,7 +1467,7 @@ li { list-style-type: none; }
     padding: 0;
     margin: 0 80px 54px 34px;
   }
-  
+
   .sidebar__symbol {
     display: flex;
     flex-flow: row wrap;
@@ -2027,7 +2027,7 @@ li { list-style-type: none; }
     line-height: 33px;
     align-items: center;
   }
-  
+
   .text {
     font-size: 15px;
     line-height: 18px;
@@ -2035,7 +2035,7 @@ li { list-style-type: none; }
     font-weight: 600;
     text-align: center;
   }
-  
+
   .time-speed__text {
     display: flex;
     align-items: flex-start;
@@ -2044,14 +2044,14 @@ li { list-style-type: none; }
     margin: 19px 0 0 0;
     padding: 0;
   }
-  
+
   .subtext {
     font-size: 10px;
     line-height: 12px;
     font-style: normal;
     font-weight: normal;
   }
-  
+
   .time-speed__subtext {
     display: flex;
     align-content: flex-start;
@@ -2080,7 +2080,7 @@ li { list-style-type: none; }
     background-size: 100% 90%;
     background-position: center bottom;
   }
-  
+
   .distance__numeral {
     display: flex;
     width: 49px;
@@ -2093,7 +2093,7 @@ li { list-style-type: none; }
     line-height: 33px;
     align-items: center;
   }
-  
+
   .distance__text {
     display: flex;
     align-content: flex-start;
@@ -2106,7 +2106,7 @@ li { list-style-type: none; }
     margin: 19px 0 0;
     padding: 0;
   }
-  
+
   .distance__subtext {
     display: flex;
     width: 56px;
@@ -2129,7 +2129,7 @@ li { list-style-type: none; }
     font-weight: bold;
     text-transform: uppercase;
   }
-  
+
   .test-drive {
     display: flex;
     flex-flow: row wrap;
@@ -2191,7 +2191,7 @@ li { list-style-type: none; }
     color: #fff;
     background-color: #f00;
   }
-  
+
   .test-drive__button:hover {
     font-size: 14px;
     color: #fff;
@@ -2201,7 +2201,7 @@ li { list-style-type: none; }
     font-weight: bold;
     padding: 0;
   }
-  
+
   .test-drive__button:focus {
     display: flex;
     color: #fff;
@@ -2213,14 +2213,14 @@ li { list-style-type: none; }
     outline: none;
     box-shadow: 0 0 0 3px;
   }
-  
+
   .test-drive__button:active {
     background-color: #fff;
     border-color: #000;
     color: #000;
     font-size: 12px;
   }
-  
+
   .section__btn-pointer {
     display: flex;
     width: 360px;
@@ -2247,11 +2247,11 @@ li { list-style-type: none; }
     background-size: 137%;
     background-position: top left -58px;
   }
-  
+
   .dashboard__header {
     display: none;
   }
-  
+
   .dashboard-right {
     display: flex;
     flex-flow: row wrap;
@@ -2262,7 +2262,7 @@ li { list-style-type: none; }
     font-size: 40px;
     color: white;
   }
-  
+
   .dashboard-right__sidebar {
     display: flex;
     flex-flow: row wrap;
@@ -2282,7 +2282,7 @@ li { list-style-type: none; }
     background-size: 100%;
     margin: 325px 0 0;
   }
-  
+
   .sidebar__symbol {
     display: none;
   }
@@ -2327,7 +2327,7 @@ li { list-style-type: none; }
     height: 100%;
     margin: 0 auto;
   }
-  
+
   .frame__sidebar {
     display: flex;
     order: 2;
@@ -2344,31 +2344,31 @@ li { list-style-type: none; }
     background-size: 100%;
     margin: 0;
   }
-  
+
   .frame__title {
     display: flex;
     width: 316px;
     height: 74px;
     margin: 18px 0 11px 0;
   }
-  
+
   .frame__item {
     display: flex;
     width: 316px;
     height: 199px;
     margin: 0;
   }
-  
+
   /* Оценка защиты */
-  
+
   .frame__title-rating {
     display: none;
   }
-  
+
   .frame__result {
     display: none;
   }
-  
+
   /* ссылка тест и кнопка заказать */
 
   .frame__info {
@@ -2376,7 +2376,7 @@ li { list-style-type: none; }
   }
 
   /* правая часть секции, каркас */
-  
+
   .frame__image-car {
     display: flex;
     order: 1;
@@ -2391,7 +2391,7 @@ li { list-style-type: none; }
     margin: 142px 0 0 0;
     padding: 0;
   }
-  
+
   .image-car__sceleton {
     display: flex;
     position: inherit;
@@ -2403,7 +2403,7 @@ li { list-style-type: none; }
     background-size: 98%;
     background-position: left;
   }
-  
+
   .image-car__webHero {
     display: none;
   }
